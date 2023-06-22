@@ -1,1 +1,102 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+* {
+  /* padding: 0;
+  margin: 0; */
+}
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.container__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* other style none */
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* body */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+}
+/* start work style */
+
+.logo-text span {
+  font-size: 2em;
+}
+
+.logo-text {
+}
+
+/* navigation */
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  text-transform: uppercase;
+}
+
+.nav__list {
+  color: #babab9;
+}
+
+.nav__list:hover {
+  border-bottom: 1px solid #babab9;
+}
+
+/* main */
+
+.style {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.style span {
+  font-size: 40px;
+}
+
+/*  img */
+.img {
+  position: relative;
+}
+.subtitle__img {
+  font-size: 10px;
+  width: 230px;
+  color: #fff;
+
+  position: absolute;
+
+  bottom: 29px;
+  left: 25px;
+  z-index: 1;
+}
+/* About us */
+
+.about-us > .span {
+  font-size: 10px;
+  color: #636463;
+}
+.p__about-us {
+  font-size: 15px;
+  margin-bottom: 20px;
+  width: 457px;
+}
+/* RedGreenBlue */
+.uslugi__about-us {
+  background-color: #9e2a21;
+  border-radius: 5px;
+  padding: 12px 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
